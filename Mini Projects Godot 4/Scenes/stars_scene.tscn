@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://lnaq7681kcjt"]
+
+[ext_resource type="Script" path="res://Scripts/Stars_Game/loops.gd" id="1_xfuf8"]
+
+[node name="Stars_Scene" type="Node2D"]
+script = ExtResource("1_xfuf8")
+spawn_count = 450
+
+[node name="Camera" type="Camera2D" parent="."]
+zoom = Vector2(2, 2)
